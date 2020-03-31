@@ -6,7 +6,7 @@ def find_even_values(aoa)
     counter_2=0
     while counter_2 < aoa[counter_1].length do
       if aoa[counter_1][counter_2].even?
-        puts aoa[counter_1]counter_2
+        puts aoa[counter_1][counter_2]
       end
     counter_2=counter_2+1
    end
